@@ -2,6 +2,7 @@ package azure.me.kizburb.azure.module;
 
 import java.util.ArrayList;
 
+import azure.me.kizburb.azure.module.combat.*;
 import azure.me.kizburb.azure.module.movement.*;
 import azure.me.kizburb.azure.module.player.*;
 import azure.me.kizburb.azure.module.render.*;
@@ -12,6 +13,8 @@ public class ModuleManager {
 	
 	public ModuleManager() {
 		// Combat
+		modules.add(new KillAura());
+		modules.add(new Antibot());
 		
 		// Movement
 		modules.add(new Sprint());
@@ -23,6 +26,7 @@ public class ModuleManager {
 		
 		// Render
 		modules.add(new FullBright());
+		modules.add(new ClickGUI());
 		
 		// None
 	}

@@ -16,6 +16,8 @@ public class Module {
 		this.key = key;
 		this.category = category;
 		toggled = false;
+		
+		setup();
 	}
 	
 	public void onEnable() {
@@ -72,4 +74,6 @@ public class Module {
 	public void setDisplayName(String displayName) {
 		this.displayName = displayName;
 	}
+	
+	public void setup() {}
 }
