@@ -15,11 +15,16 @@ public class ModuleManager {
 		// Combat
 		modules.add(new KillAura());
 		modules.add(new Antibot());
+		modules.add(new AutoArmor());
+		modules.add(new Criticals());
 		
 		// Movement
 		modules.add(new Sprint());
 		modules.add(new Fly());
 		modules.add(new Step());
+		modules.add(new LongJump());
+		modules.add(new Speed());
+		modules.add(new Phase());
 		
 		// Player
 		modules.add(new NoFall());
