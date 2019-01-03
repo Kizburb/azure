@@ -17,6 +17,9 @@ public class ModuleManager {
 		modules.add(new Antibot());
 		modules.add(new AutoArmor());
 		modules.add(new Criticals());
+		modules.add(new SmoothAimbot());
+		modules.add(new Aura());
+		modules.add(new TPAura());
 		
 		// Movement
 		modules.add(new Sprint());
@@ -25,13 +28,16 @@ public class ModuleManager {
 		modules.add(new LongJump());
 		modules.add(new Speed());
 		modules.add(new Phase());
+		modules.add(new Scaffold());
 		
 		// Player
 		modules.add(new NoFall());
+		modules.add(new NoRotate());
 		
 		// Render
 		modules.add(new FullBright());
 		modules.add(new ClickGUI());
+		modules.add(new BlockhuntESP());
 		
 		// None
 	}

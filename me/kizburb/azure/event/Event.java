@@ -26,7 +26,7 @@ public abstract class Event {
 
 		POST("POST", 1);
 
-		private State(final String string, final int number) {
+		private State(String string, int number) {
 
 		}
 	}

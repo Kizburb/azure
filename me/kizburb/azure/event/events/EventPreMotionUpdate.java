@@ -4,7 +4,8 @@ import azure.me.kizburb.azure.event.Event;
 
 public class EventPreMotionUpdate extends Event {
 
-	private float yaw, pitch;
+	public float yaw;
+	public float pitch;
 	private boolean ground;
 	public double x, y, z;
 	
